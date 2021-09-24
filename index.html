@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name ="viewport" content ="width= device-width initial-scale" >
+        <title>Home | AluraDev</title>
+        <link href="css/reset.css" rel="stylesheet">
+        <link href="css/basecss.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body class="corpo" >
+        <header>
+            <div class="container">
+                <section class="logo">
+                    <img  src="imagens/header/logo.svg" alt="">
+                </section>
+                <section class="barraDePesquisa">
+                    <input class="searchbar__search " type="text" placeholder="Busque por algo">
+                </section>
+                <section class ="espaço-barra-usuario">
+                    <section class="barra-usuario">
+
+                    <img class ="foto-usuario" src="imagens/header/foto-usuario.svg" alt="">
+                    <p class="nome-usuario">Harry</p>
+                    </section>
+                    </section>
+
+            </div>
+        </header>
+        <main>
+            <div class="container-body">
+                <section class="menu-navegacao">
+                    <p class="header2">M e n u </p>
+                    <div class="espaço-menu-links">
+                    <a href="#" class="editor-codigo-block">
+                            <img class="menu-imagem"src="imagens/Main/editor.svg" alt="">
+                            <p class="header3"> Editor de código</p>
+                    </a>
+                    </div>
+                    <div class="espaço-menu-links">
+                        <a href="#" class="comunidade-block">
+                            <img class="menu-imagem"src="imagens/Main/comunidade.svg" alt="">
+                            <p class="header3">  Comunidade</p>
+                        </a>
+                    </div>
+                </section>
+                <section class="meio">
+                    <div class="box-codigo-cor">
+                        <div class="box-codigo-espaço">
+                            <img class ="circulos-posicionamento"src="imagens/Main/circulo-verde.svg" alt="">
+                            <img class ="circulos-posicionamento" src="imagens/Main/circulo-amarelo.svg" alt="">
+                            <img class ="circulos-posicionamento" src="imagens/Main/circulo-vermelho.svg" alt="">
+                            <textarea cols="30" rows="10" class="code-editor--janela-de-texto"></textarea>
+                        </div>
+                    </div>
+                    <input class="botao-sintaxe-highlight" type="submit" value="Visualizar com sintaxe Highlight">
+                </section>
+                <section class="fim">
+                    <p class="header2">S e u           p r o j e t o</p>>
+                    <input class="barra-nome-projeto" type="text" placeholder="Nome do projeto">
+                    <textarea placeholder="Descrição do seu projeto" cols="30" rows="10" class="barra-descricao-projeto"></textarea>
+                    <p class="header3">Personalização</p>
+                    <select class="barra-nome-projeto">
+                        <option class="texto-selecao">JavaScript</option>
+                        <option class="texto-selecao">Java</option>
+                        <option class="texto-selecao">Python</option>
+                    </select>
+                    <input class="personalizar-cor" type="color">
+                    <input class="botao-salvar-projeto" type="submit" value="Salvar Projeto">
+                </section>
+            </div>
+        </main> 
+    </body>
+</html>
